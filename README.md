@@ -22,12 +22,13 @@ in the current plans for the Calibre project. (But if you now how to code and
 want to implement it yourself, I believe the project will accept your
 contributions.)
 
-[Someone on reddit][workaround] suggested a workaround: use Calibre to convert
-to ZIP, and then rename the ZIP to CBZ. Although it can work, we also lose all
-the metadata. And we first have to figure out which of the files are
-fixed-layout, and only convert those. While this manual workaround could work
-on a couple of files, it requires too many manual steps to be doable for a
-library of thousand(s) of files. I needed a better tool. So I wrote it myself.
+People on reddit [(1)][reddit1] [(2)][reddit2] suggested a workaround: use
+Calibre to convert to ZIP, and then rename the ZIP to CBZ. Although it can
+work, we also lose all the metadata. And we first have to figure out which of
+the files are fixed-layout, and only convert those. While this manual
+workaround could work on a couple of files, it requires too many manual steps
+to be doable for a library of thousand(s) of files. I needed a better tool. So
+I wrote it myself.
 
 ## How it works (and limitations)
 
@@ -105,7 +106,7 @@ else, and that's why I'm sharing it.
 Assuming you have both Python and Jupyter already installed, possibly inside a
 virtual environment, please also install the dependencies of this project:
 
-    pip install -r requeriments.txt
+    pip install -r requirements.txt
 
 Now open the Jupyter notebook (the file with `.ipynb` extension) and follow the
 instructions over there.
@@ -126,7 +127,8 @@ instructions over there.
 [azw3]: https://en.wikipedia.org/wiki/Kindle_File_Format
 [calibre]: https://calibre-ebook.com/
 [nope]: https://www.mobileread.com/forums/showthread.php?t=328681
-[workaround]: https://old.reddit.com/r/Calibre/comments/111umvj/comic_book_azw3_convert_to_pdf_weird_margins/
+[reddit1]: https://old.reddit.com/r/Calibre/comments/111umvj/comic_book_azw3_convert_to_pdf_weird_margins/
+[reddit2]: https://old.reddit.com/r/ereader/comments/hdqip9/how_to_convert_kindle_ebook_manga_to_cbrcbz/
 [comicinfo]: https://github.com/anansi-project/comicinfo
 [python]: https://www.python.org/
 [jupyterinstall]: https://jupyter.org/install
