@@ -1,0 +1,8 @@
+beautifulsoup4
+lxml
+mobi
+tqdm
+# Required by tqdm:
+ipywidgets
+# Required by mobi:
+standard-imghdr
