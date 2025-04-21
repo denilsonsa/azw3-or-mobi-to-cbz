@@ -62,7 +62,7 @@ what it can do, and what it can't do.
 
 In summary:
 
-* Free-flow/flexible-flow e-books: not supported.
+* Reflowable e-books: not supported.
 * Fixed-layout e-books:
     * With a single image per page: supported.
     * With two images per page: supported.
